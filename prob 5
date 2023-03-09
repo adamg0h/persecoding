@@ -1,0 +1,10 @@
+num1 = int(input())
+sign = input()
+num2 = int(input())
+if sign == "+":
+    total = num1 + num2 
+    print(total)
+
+if sign ==  "*":
+    total = num1 * num2 
+    print(total)
