@@ -1,13 +1,13 @@
-n = int(input("Input first positive value: "))
-i = int(input("Input second postive value: "))
+a = int(input("Input first positive value: "))
+b = int(input("Input second postive value: "))
 
-if n >= 0 and n <= 1000 and i >= 0 and i <= 1000:
-    if n == i:
+if a >= 0 and a <= 1000 and b >= 0 and b <= 1000:
+    if a == b :
         print("Error")
     else:
-        if n > i:
-            A = n - i
+        if a > b:
+            A = a - b
             print(A)
         else:
-            B = i - n
+            B = b - a
             print(B)
