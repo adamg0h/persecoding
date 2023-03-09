@@ -1,0 +1,9 @@
+a = int(input("Input a number: "))
+
+if a >= 0 and a <= 100:
+    if a > 50:
+        print("yes dream big")
+    else:
+        print("on the small side")
+else:
+    print("Error")
